@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9CD9606-0CD4-4C4E-8AF5-091114DD0071}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TiposDeVariaveis</RootNamespace>
+    <AssemblyName>TiposDeVariaveis</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aula 1 - Tipos de Valor\1-Tipo de Valor\TipoDeValor.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\10 - Delegate\Delegate.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\11 - Objetos\Objetos.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\12 - Dinâmico\Dinamico.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\2-Tipo de Inteiro\TiposInteiros.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\3 - Ponto Flutuante\PontoFlutuante.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\4 - Decimal\Decimal.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\5-Estruturas\Estruturas.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\6-Enumaracoes\Enumeracoes.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\8 - Classe\Classe.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\7 - Tipos de Referência\TiposDeReferência.cs" />
+    <Compile Include="Aula 1 - Tipos de Valor\9 - Interface\Interface.cs" />
+    <Compile Include="Aula 3\13 - Métodos de extensão\MetodosExtensao.cs" />
+    <Compile Include="IItemAula.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

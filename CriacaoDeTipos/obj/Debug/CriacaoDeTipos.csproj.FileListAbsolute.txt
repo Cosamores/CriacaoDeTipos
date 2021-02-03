@@ -1,0 +1,7 @@
+C:\Curso C# SENAI\CriacaoDeTipos\CriacaoDeTipos\obj\Debug\CriacaoDeTipos.csprojAssemblyReference.cache
+C:\Curso C# SENAI\CriacaoDeTipos\CriacaoDeTipos\obj\Debug\CriacaoDeTipos.csproj.CoreCompileInputs.cache
+C:\Curso C# SENAI\CriacaoDeTipos\CriacaoDeTipos\bin\Debug\TiposDeVariaveis.exe.config
+C:\Curso C# SENAI\CriacaoDeTipos\CriacaoDeTipos\bin\Debug\TiposDeVariaveis.exe
+C:\Curso C# SENAI\CriacaoDeTipos\CriacaoDeTipos\bin\Debug\TiposDeVariaveis.pdb
+C:\Curso C# SENAI\CriacaoDeTipos\CriacaoDeTipos\obj\Debug\TiposDeVariaveis.exe
+C:\Curso C# SENAI\CriacaoDeTipos\CriacaoDeTipos\obj\Debug\TiposDeVariaveis.pdb
